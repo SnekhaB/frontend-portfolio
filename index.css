@@ -85,6 +85,51 @@ body{
 
 #projects{width: 600px;}
 
+#project1 {
+  animation: slideInDown 1s ease-in-out 0s forwards;
+}
+
+@keyframes slideInDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+#project2 {
+  animation: slideInLeft 1s ease-in-out 0s forwards;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+#project3 {
+  animation: slideInUp 1s ease-in-out 0s forwards;
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 /* #projects a:hover {color: #59c5b8;} */
 
 #projects .project-container > img{
