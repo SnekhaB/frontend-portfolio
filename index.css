@@ -170,6 +170,24 @@ body {
   color: #5eead4;
 }
 
+.certification a.resume {
+  color: #c9d5ed;
+  transition: color 0.2s ease;
+}
+
+.certification a.resume:hover {
+  color: #5eead4;
+}
+
+#projects a.resume {
+  color: #c9d5ed;
+  transition: color 0.2s ease;
+}
+
+#projects a.resume:hover {
+  color: #5eead4;
+}
+
 .certification>span {
   letter-spacing: 2px;
   color: #c9d5ed;

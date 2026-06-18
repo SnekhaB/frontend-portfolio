@@ -39,6 +39,8 @@
                 <li><a href="#" class="text-uppercase text-decoration-none fw-bolder py-2"
                     data-target="skills"><span></span>Skills</a></li>
                 <li><a href="#" class="text-uppercase text-decoration-none fw-bolder py-2"
+                    data-target="projects"><span></span>Projects</a></li>
+                <li><a href="#" class="text-uppercase text-decoration-none fw-bolder py-2"
                     data-target="education"><span></span>Education</a></li>
               </ul>
             </nav>
@@ -58,24 +60,22 @@
 
           <section class="w-sm-75" id="about"><span class="d-block d-lg-none mb-3">ABOUT</span>
             <p>
-              I am an AI Engineer with hands-on experience in building <strong>Retrieval-Augmented Generation
-                (RAG)</strong> pipelines and <strong>multi-agent (agentic)</strong> workflows. I specialize in
-              architecting production-ready AI systems that leverage the latest in LLM orchestration frameworks like
-              <strong>LangChain, LangGraph, and LlamaIndex</strong>.
+              I am an <strong>AI/ML Engineer</strong> with hands-on production experience designing, building, and
+              optimising <strong>end-to-end RAG pipelines, Generative AI, LLM integration, and Multi-Agent Systems</strong>.
+              Skilled in developing scalable, production-grade AI applications with a strong focus on performance,
+              faithfulness, and reliability.
             </p>
 
             <p>
-              My expertise extends to developing scalable RESTful APIs using <strong>Python and Flask</strong>,
-              integrated with robust data backends like <strong>Firebase (Firestore), ChromaDB, and Redis</strong>. I am
-              passionate about optimizing retrieval accuracy and LLM performance to deliver high-quality, reliable AI
-              experiences.
+              Experienced in translating real-world business requirements into AI solutions using modern
+              <strong>GenAI frameworks and NLP techniques</strong>. I work across the full stack — from intelligent
+              data ingestion and vector retrieval to scalable <strong>RESTful APIs</strong> backed by
+              <strong>ChromaDB, Qdrant, and Redis</strong>.
             </p>
 
             <p>
-              With a background in <strong>Bioinformatics & Data Science</strong> and a strong foundation in full-stack
-              development, I bring a unique analytical perspective to AI engineering. I thrive in environments where I
-              can build end-to-to AI solutions, from intelligent data extraction with <strong>Crawl4AI</strong> to
-              deploying seamless, performant digital experiences.
+              With a background in <strong>Bioinformatics &amp; Data Science</strong>, I bring a unique analytical
+              perspective to AI engineering, combining deep ML/NLP fundamentals with practical production AI experience.
             </p>
           </section>
 
@@ -88,22 +88,21 @@
                 </div>
                 <h6 class="text-muted mb-3">Neorains Technologies Private Limited</h6>
                 <ul class="list-unstyled small ps-0 text-muted">
-                  <li class="mb-2">• Architected and Implemented a <strong>Multi-Agent System using LangGraph</strong>
-                    with intelligent task routing and MCP client integration.</li>
-                  <li class="mb-2">• Deployed an <strong>MCP server integrated with the Shopify platform</strong> to
-                    fetch and process order data.</li>
-                  <li class="mb-2">• Reduced retrieval latency by <strong>30%</strong> by migrating the retrieval layer
-                    from <strong>LangChain to LlamaIndex</strong>.</li>
-                  <li class="mb-2">• Improved LLM response quality by <strong>60%</strong> by introducing a
-                    <strong>re-ranking step</strong> within the RAG pipeline.</li>
-                  <li class="mb-2">• Enhanced embedding and retrieval accuracy by <strong>50%</strong> by integrating
-                    <strong>Docling</strong> for structured document loading.</li>
+                  <li class="mb-2">• Designed and implemented end-to-end RAG pipelines using LlamaIndex, LangChain and Qdrant for <strong>hybrid retrieval (BM25 + Vector Search)</strong> — resulting in <strong>50% improvement in embedding &amp; retrieval accuracy</strong> and <strong>60% improvement in LLM response quality</strong>.</li>
+                  <li class="mb-2">• Implemented <strong>RAGAS</strong> for model evaluation, faithfulness, and continuous improvement.</li>
+                  <li class="mb-2">• Architected <strong>Multi-Agent Systems using LangGraph</strong> with intelligent task routing and MCP integration; enabled connection to multiple LLMs via API keys.</li>
+                  <li class="mb-2">• Reduced retrieval latency by <strong>30%</strong> by migrating the retrieval layer from LangChain to LlamaIndex and integrating <strong>Redis caching</strong>.</li>
+                  <li class="mb-2">• Developed scalable <strong>RESTful APIs (Flask)</strong> and MCP server integrated with Shopify, supporting <strong>200+ daily active users</strong>.</li>
                 </ul>
                 <div class="mt-3">
                   <span class="badge bg-dark-blue text-teal me-2 mb-2">LangGraph</span>
                   <span class="badge bg-dark-blue text-teal me-2 mb-2">LlamaIndex</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">LangChain</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">Qdrant</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">RAGAS</span>
                   <span class="badge bg-dark-blue text-teal me-2 mb-2">FastMCP</span>
                   <span class="badge bg-dark-blue text-teal me-2 mb-2">Python</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">Flask</span>
                   <span class="badge bg-dark-blue text-teal me-2 mb-2">Redis</span>
                 </div>
 
@@ -152,19 +151,101 @@
             </div>
           </section>
 
-          <section id="skills" class="my-5"><span class="d-block d-lg-none mb-3">SKILLS</span>
-            <div class="skills">
-              <div class="w-75 d-flex justify-content-between my-5">
-                <img src="./assets/icons8-python.svg" alt="Python" title="Python">
-                <img src="./assets/icons8-js.svg" alt="JavaScript" title="JavaScript">
-                <img src="./assets/icons8-react-native.svg" alt="React" title="React">
-                <img src="./assets/icons8-html5.svg" alt="HTML5" title="HTML5">
+          <section id="projects" class="my-5"><span class="d-block d-lg-none mb-3">PROJECTS</span>
+            <div class="d-flex flex-column gap-4 mt-5">
+              <div class="experience-item project-container p-3">
+                <h6 class="text-light fw-bold">NLP-Based Query Intent Classifier</h6>
+                <ul class="list-unstyled small ps-0 text-muted mt-2">
+                  <li class="mb-2">• Built an <strong>SVM-based Intent Classifier</strong> to distinguish genuine user queries from casual conversation.</li>
+                  <li class="mb-2">• Developed a complete <strong>NLP preprocessing pipeline</strong> using NLTK (tokenization, lemmatization, POS tagging, stopword removal, and punctuation cleaning).</li>
+                  <li class="mb-2">• Trained SVM model with <strong>TF-IDF Vectoriser</strong> and deployed a Flask web application for real-time prediction using Pickle.</li>
+                </ul>
+                <div class="mt-3">
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">ML Algorithms</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">NLTK</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">Scikit-learn (SVM)</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">TF-IDF</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">Flask</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">Pickle</span>
+                </div>
               </div>
-              <div class="w-75 d-flex justify-content-between my-5">
-                <img src="./assets/icons8-css.svg" alt="CSS3" title="CSS3">
-                <img src="./assets/icons8-bootstrap_1.svg" alt="Bootstrap" title="Bootstrap">
-                <img src="./assets/icons8-figma.svg" alt="Figma" title="Figma">
-                <img src="./assets/icons8-wordpress.svg" alt="WordPress" title="WordPress">
+
+              <div class="experience-item project-container p-3">
+                <div class="d-flex justify-content-between align-items-start flex-wrap gap-2">
+                  <h6 class="text-light fw-bold mb-1">FocusFlow – Daily Productivity Coach &amp; Task Prioritizer</h6>
+                  <span class="badge bg-dark-blue text-teal small">AWS PartyRock</span>
+                </div>
+                <p class="text-muted small mb-2 mt-1">Built during the <strong>AWS AI &amp; ML Scholars</strong> program (Udacity × AWS). A GenAI-powered productivity app that takes your tasks, available hours, and energy level as inputs and generates a personalised prioritised task plan, a time-blocked daily schedule, and a motivational wellness tip.</p>
+                <ul class="list-unstyled small ps-0 text-muted">
+                  <li class="mb-2">• Accepts multi-line task input, available hours, and current energy level (High / Medium / Low) as user inputs.</li>
+                  <li class="mb-2">• Generates a <strong>Prioritised Task List</strong> with time estimates and AI reasoning for each task.</li>
+                  <li class="mb-2">• Produces a <strong>Time-Blocked Daily Schedule</strong> aligned to the user's energy and focus capacity.</li>
+                  <li class="mb-2">• Delivers a personalised <strong>Wellness &amp; Motivation Tip</strong> as a bonus output.</li>
+                </ul>
+                <div class="mt-3">
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">AWS PartyRock</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">Generative AI</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">Prompt Engineering</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">Amazon Bedrock</span>
+                </div>
+                <div class="mt-3">
+                  <a href="https://partyrock.aws/u/snekha/-S30r5K6S/FocusFlow-Daily-Productivity-Coach" target="_blank" class="text-decoration-none resume fw-bold small">View Project <i class='bx bxs-right-top-arrow-circle'></i></a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="skills" class="my-5"><span class="d-block d-lg-none mb-3">SKILLS</span>
+            <div class="skills mt-5">
+              <p class="text-light mb-4">As an AI Engineer I use:</p>
+              
+              <div class="mb-4">
+                <h6 class="text-light">RAG Architecture & LLM Integration</h6>
+                <div>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">Langchain</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">LangGraph</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">LlamaIndex</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">LangFuse</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">RAGAS</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">ChromaDb</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">Qdrant</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">FastMCP</span>
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <h6 class="text-light">Programming & Core Libraries</h6>
+                <div>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">Python</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">Flask</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">REST APIs</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">Pandas</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">Numpy</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">Scikit-learn</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">NLTK</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">Spacy</span>
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <h6 class="text-light">NLP Techniques</h6>
+                <p class="text-muted small mb-2">Tokenization, Stemming, Lemmatization, POS tagging, Stopword removal, Vectorize words using TF-IDF or Word2Vec.</p>
+              </div>
+
+              <div class="mb-4">
+                <h6 class="text-light">Machine Learning</h6>
+                <p class="text-muted small mb-2"><strong>Supervised Algorithms:</strong> Linear Regression, Logistic Regression, KNN, Decision Tree, Random Forest and XGBoost.</p>
+                <p class="text-muted small mb-2"><strong>Unsupervised Algorithms:</strong> K-means Clustering and PCA for dimensionality reduction.</p>
+              </div>
+
+              <div class="mb-0">
+                <h6 class="text-light">Deep Learning</h6>
+                <div>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">RNN</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">CNN</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">LSTM</span>
+                  <span class="badge bg-dark-blue text-teal me-2 mb-2">Transformer Architecture</span>
+                </div>
               </div>
             </div>
           </section>
@@ -179,9 +260,24 @@
 
             <div class="my-5 certification">
               <span>CERTIFICATIONS</span>
-              <p class="mt-3">Advanced Web and UI/UX Design</p>
-              <p>Full Stack - Python</p>
-              <p>Introduction to Python</p>
+              <div class="mt-3">
+                <div class="d-flex justify-content-between align-items-baseline mb-2">
+                  <a href="https://www.udacity.com/certificate/e/c809a01c-3e6d-11f1-a1b6-b3ecef5d3550" target="_blank" class="text-decoration-none resume mb-0">AWS AI Practitioner Challenge, Udacity <i class='bx bxs-right-top-arrow-circle'></i></a>
+                  <span class="text-muted small ms-3 text-nowrap">Apr 2026 – Jun 2026</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-baseline mb-2">
+                  <a href="https://drive.google.com/file/d/1yMf3iKKMGontWXGqPiMfuqQzCHqBqlry/view?usp=sharing" target="_blank" class="text-decoration-none resume mb-0">Advanced Web and UI/UX Design, Magic Bus India Foundation <i class='bx bxs-right-top-arrow-circle'></i></a>
+                  <span class="text-muted small ms-3 text-nowrap">Dec 2024 – Apr 2025</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-baseline mb-2">
+                  <a href="https://drive.google.com/file/d/1f77no9txpwv9MNmvBeXwci0V381IPXH7/view?usp=sharing" target="_blank" class="text-decoration-none resume mb-0">Full Stack - Python, Quality Thought <i class='bx bxs-right-top-arrow-circle'></i></a>
+                  <span class="text-muted small ms-3 text-nowrap">Apr 2024 – May 2024</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-baseline mb-2">
+                  <a href="https://drive.google.com/file/d/19CfL6uSUNNap9-QukP8fgoI_tf5ph9tD/view?usp=sharing" target="_blank" class="text-decoration-none resume mb-0">Data Science, GUVI Geek Network <i class='bx bxs-right-top-arrow-circle'></i></a>
+                  <span class="text-muted small ms-3 text-nowrap">May 2023 – Oct 2023</span>
+                </div>
+              </div>
             </div>
           </section>
 
